@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 const SECTIONS = [
   { id: "neighborhoods", label: "Barrios", emoji: "🏘️" },
   { id: "hotel", label: "Hotel", emoji: "🏨" },
+  { id: "geography", label: "Geography", emoji: "🗺️" },
   { id: "history", label: "History", emoji: "📜" },
   { id: "wine", label: "Wine", emoji: "🍷" },
   { id: "food", label: "Food", emoji: "🥩" },

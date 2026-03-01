@@ -1,6 +1,7 @@
 import StickyNav from "@/components/StickyNav";
 import Neighborhoods from "@/components/Neighborhoods";
 import Hotel from "@/components/Hotel";
+import Geography from "@/components/Geography";
 import History from "@/components/History";
 import Wine from "@/components/Wine";
 import Food from "@/components/Food";
@@ -86,6 +87,7 @@ export default function Home() {
       <main className="px-4 pb-20 space-y-12 max-w-2xl mx-auto">
         <Neighborhoods />
         <Hotel />
+        <Geography />
         <History />
         <Wine />
         <Food />
